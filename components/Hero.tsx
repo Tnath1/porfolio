@@ -27,17 +27,17 @@ const Hero = () => {
     <div className="flex justify-center relative my-20 z-10">
       <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
         <h2 className=" uppercase tracking-widest text-xs text-center max-w-80 text-blue-100 ">
-          Hello there!
+          Welcome to my Porfolio...
         </h2>
         <TextGenerateEffect
         className="text-center tex-[40px] md:text-5xl lg:text-6xl"
-        words="Transforming Concepts into Seamless User Eperiences" />
-        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl "> I'm Arome Ukpoju, a Frontend Developer based in Nigeria </p>
+        words="Transforming Concepts into Seamless User Experiences." />
+        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl "> I'm Arome Ukpoju, skilled software engineer with 2+ years of expertise in crafting +ve solutions to meet unique business needs. </p>
       </div>
     </div>
     </div> 
     
-
+ 
     
   );  
 };
