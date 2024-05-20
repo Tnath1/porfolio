@@ -1,5 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGeneratorEffect";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
       />
       <Spotlight
         className="top-28 left-80 h-[80vh] w-[50vw]"
-        fill="white"
+        fill="blue"
       />
     </div>
     <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
@@ -28,6 +29,10 @@ const Hero = () => {
         <h2 className=" uppercase tracking-widest text-xs text-center max-w-80 text-blue-100 ">
           Hello there!
         </h2>
+        <TextGenerateEffect
+        className="text-center tex-[40px] md:text-5xl lg:text-6xl"
+        words="Transforming Concepts into Seamless User Eperiences" />
+        <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl "> I'm Arome Ukpoju, a Frontend Developer based in Nigeria </p>
       </div>
     </div>
     </div> 
