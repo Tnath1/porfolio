@@ -35,10 +35,14 @@ const Hero = () => {
             <span className="text-purple">+ve solutions</span> to meet unique
             business needs.
           </p>
-        <Button  
-        title="Show my work"
-        icon = {<FaLocationArrow/>} 
-        position="right"/>
+          <a href="#about">
+            {" "}
+            <Button
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
