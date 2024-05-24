@@ -1,6 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Button from "./ui/Button";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -33,7 +35,10 @@ const Hero = () => {
             <span className="text-purple">+ve solutions</span> to meet unique
             business needs.
           </p>
-        
+        <Button  
+        title="Show my work"
+        icon = {<FaLocationArrow/>} 
+        position="right"/>
         </div>
       </div>
     </div>
